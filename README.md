@@ -20,3 +20,5 @@ My work can be summarized by following steps (for one RGB image, it may experiec
 ***while all image in dataset have got their feature vector, companied with their labels, following tasks can be done***</br>
 1. for image classification task, feed the feature vactors and labels to train a svm model.
 2. for image retrieval task, the similarity of two images can be caculated using euclidean distance or other distance norm, according to the distance, retrival task can be fullfilled.
+
+***dataset used:***[extended ETHZ shapes](http://riemenschneider.hayko.at/vision/dataset/task.php?did=56)
