@@ -5,9 +5,12 @@ hello-Sketch: An attempt of image retrieval based on sketch</br>
 This topic, 'sketch based image retrieval', is my subject that I work on in the scientific research training that I participated in during my sophomore year(presumably from Janurary 2019 to December 2019). In this work, I try to design a  hand-craft local feature that can be effective for image classification and retrieval task.</br>
 
 My work can be summarized by following steps (for one RGB image, it may experiecnce following operations):</br>
-1. get grayed
+![image](https://github.com/Arthurfangm/hello-Sketch/blob/master/images/orig_RGB.jpg)
+1. get grayed</br>
 2. get edge extracted</br>
+![image](https://github.com/Arthurfangm/hello-Sketch/blob/master/images/greyed_edge_detected_RGB.tif)
 3. edge fitted with straight line</br>
+![image](https://github.com/Arthurfangm/hello-Sketch/blob/master/images/line_fitted_RGB.tif)
 4. a series local feature (say with shape [m,1]) extracted with a kind of feature design to compose the image's global feature (say with shape [m,n])</br>
 5. the image's glocbal feature is feed into a [fisher vector](https://www.vlfeat.org/overview/encodings.html) to be encoded to a one-dimension vector (say with shape [a, 1])</br>
 
